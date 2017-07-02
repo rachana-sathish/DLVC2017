@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import zipfile
 
-if not os.path.exists('tut03-results'):
-    os.makedirs('tut03-results')
+#if not os.path.exists('tut03-results'):
+#    os.makedirs('tut03-results')
 
 def get_immediate_subdirectories(a_dir):
     return [name for name in os.listdir(a_dir)
