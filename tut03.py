@@ -1,4 +1,3 @@
-%matplotlib inline
 from pylab import *
 import pickle
 from skimage import feature
