@@ -16,9 +16,9 @@ def get_immediate_subdirectories(a_dir):
 def get_imlist(path):
     return [os.path.join(path,f) for f in os.listdir(path) if f.endswith('.JPEG')]
 
-if not os.path.exists('data/tut03/tiny-imagenet-200'):
-    zip_ref = zipfile.ZipFile('data/tut03/tiny-imagenet-200.zip', 'r')
-    zip_ref.extractall('data/tut03/')
+if not os.path.exists('DLVC2017/data/tut03/tiny-imagenet-200'):
+    zip_ref = zipfile.ZipFile('DLVC2017/data/tut03/tiny-imagenet-200.zip', 'r')
+    zip_ref.extractall('DLVC2017/data/tut03/')
     zip_ref.close()
 
 train_datasetPath = 'data/tut03/tiny-imagenet-200/train';
