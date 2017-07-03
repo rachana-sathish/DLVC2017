@@ -41,9 +41,8 @@ for n = 1,epochs do
 	  -- (1) zero the accumulation of the gradients
 	  model:zeroGradParameters()
 	  -- (2) accumulate gradients
-    grad = criterion:backward(
-      output, target)
-	  model:backward(data, grad)
+    
+	  model:backward(data, criterion:backward(output, target))
 	  -- (3) update parameters with a 0.01 learning rate
 	  model:updateParameters(LR)	  
 	  err_train = criterion:forward(output,target)	 
@@ -67,12 +66,12 @@ gnuplot.grid(true)
 gnuplot.title('Plot of error vs. epochs')
 gnuplot.plotflush()
 -------------Test model------------------------------------------------
-sample_test = test_data[{{5,15},{},{},{}}]
-sample_label = test_label[{{5,15}}]
+sample_test = test_data[{{5,10},{},{},{}}]
+sample_label = test_label[{{5,10}}]
 pred = torch.exp(model:forward(sample_test))
-pred_val,pred_class = torch.max(pred,2)
+pred_val,pred_class = torch.max(pred,1)
 -------------Printing results---------------------------------------
 print('Predicted class...')
-print(pred_class:transpose(1,2)) -- predicted class
+print(pred_class) -- predicted class
 print('Ground truth label...')
-print(sample_label:transpose(1,2)) -- goundtruth class
+print(sample_label) -- goundtruth class
