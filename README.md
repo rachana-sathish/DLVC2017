@@ -6,5 +6,5 @@ Link to download data for tutorial 3 (tut03): https://tiny-imagenet.herokuapp.co
 
 Torch7 documentation: http://torch.ch/  <br />
 Link to download data for tutorial 4 (tut04): http://goo.gl/qjmMH2  <br />
-Reference for tutorail 4: https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb <br />
+Reference for tutorial 4: https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb <br />
 More tutorials on torch: http://torch.ch/docs/tutorials.html
