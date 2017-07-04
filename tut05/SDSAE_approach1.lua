@@ -13,7 +13,7 @@ epoch = 5
 
 SNRdb = 2
 
-DataPath = '/home/debdoot/Desktop/Codes/MNIST/'
+DataPath = ''
 torch.setdefaulttensortype('torch.FloatTensor')
 
 local optimState = {
