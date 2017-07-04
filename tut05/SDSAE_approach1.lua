@@ -1,8 +1,6 @@
 require 'torch';
 require 'optim';
 require 'nn';
-require 'cudnn';
-require 'cunn';
 require 'gnuplot';
 require 'image';
 
@@ -15,7 +13,7 @@ epoch = 5
 
 SNRdb = 2
 
-DataPath = '/home/debdoot/Desktop/Codes/MNIST/'
+DataPath = ''
 
 local optimState = {
     learningRate = LR,
