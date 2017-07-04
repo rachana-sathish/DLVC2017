@@ -109,8 +109,7 @@ function Train_Net(Net,Data_Set,Data_out,sz,Data_Test,Data_Test_labels)
       input = Data_Set[loopno]
       output = Data_out[loopno]
       local LossTrain = network(input,Net,output)    
-      Total_Loss = Total_Loss + LossTrain
-      loopno = loopno + 1
+      Total_Loss = Total_Loss + LossTrain      
     end
     Total_Loss = Total_Loss/sz
     print('Training Loss = ' .. Total_Loss)
@@ -150,8 +149,7 @@ function Train_Nett(Net,Data_Set,Data_out,sz)
       input = Data_Set[loopno]
       output = Data_out[loopno]
       local LossTrain = network(input,Net,output)    
-      Total_Loss = Total_Loss + LossTrain
-      loopno = loopno + 1
+      Total_Loss = Total_Loss + LossTrain      
     end
     Total_Loss = Total_Loss/sz
     print('Training Loss = ' .. Total_Loss)
