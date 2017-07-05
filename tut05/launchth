@@ -1,3 +1,0 @@
-cd dlvc/tut05
-source /opt/torch/bin/torch-activate
-th mnistCPU.lua
