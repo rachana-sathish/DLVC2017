@@ -1,7 +1,8 @@
 require 'nn'
-
 require 'gnuplot'
 
+
+-- Random initialization of training, validation and testing data
 train_data=torch.rand(10,1024)
 train_label=torch.Tensor(10):fill(1)
 
