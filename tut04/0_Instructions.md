@@ -3,7 +3,7 @@
 #### Tip: For detailed instructions go through the instructions provided by Colfax Research. Click on the connect tab for instructions on establishing a connection and file transfer. Click on the compute tab to know about job queuing.
 
 After establishing connection with the server using  PuTTY (for windows) or using ssh (for Linux), transfer the required files.
-The login node cannot be used for heavy computations. For running the codes, send the job to the compute node using the 'qsub' command.
+The login node cannot be used for heavy computations. For running the codes, send the job to the compute node using the 'qsub' command using a launch script.
 
 Also, in the script for launching the job, source torch into the path by adding the line: source /opt/torch/bin/torch-activate. Preferably, save the launch script in the home directory and add the path to your code in the script. 
 For running a sample file named 'sample.lua' located in the folder 'myFolder', the sample launch script  would have the following lines:
@@ -23,7 +23,7 @@ You may add more lines for monitoring the start and end of code execution.
     th sample.lua
     echo End
 
-As instructed in the colfax research website, make sure that there is a blank line at the ebd of the script.
+As instructed in the Colfax Research website, make sure that there is a blank line at the ebd of the script.
 
 For monitoring the current status of the job, use the command 'qstat'
 
