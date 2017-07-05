@@ -29,7 +29,7 @@ For monitoring the current status of the job, use the command 'qstat'
 
     $ qstat JOBID
     
-where JOBID, is the job number assigend to the job when you start the job using 'qsub' command. The status 'R' incidates the the job is running in the compute node, 'E' indicates that these is an error and 'Q' indicates the job is in the queue. After the completion of the job, it will not appear in the list of current jobs you get by running the 'qstat' command. You may then look at the files sampleJob.eJOBID for the errors if any, and sampleJob.oJOBID for the output.
+where, JOBID is the job number assigend to the job when you start the job using 'qsub' command. The status 'R' incidates the the job is running in the compute node, 'E' indicates that these is an error and 'Q' indicates the job is in the queue. After the completion of the job, it will not appear in the list of current jobs you get by running the 'qstat' command. You may then look at the files sampleJob.eJOBID for the errors if any, and sampleJob.oJOBID for the output.
 
 For deleting the job numbered JOBID which is running or is in the queue, used the command 'qdel',
 
