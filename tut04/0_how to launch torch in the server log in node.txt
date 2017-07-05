@@ -1,5 +1,0 @@
-First source torch into the path.  
-    $ source /opt/torch/bin/torch-activate
-    
-Then launch torch by typing th in the terminal:
-    $ th
