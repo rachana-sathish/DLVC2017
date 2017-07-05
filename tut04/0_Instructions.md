@@ -8,7 +8,7 @@ The login node cannot be used for heavy computations. For running the codes, sen
 Also, in the script for launching the job, source torch into the path by adding the line: source /opt/torch/bin/torch-activate. Preferably, save the launch script in the home directory and add the path to your code in the script. 
 For running a sample file named 'sample.lua' located in the folder 'myFolder', the sample launch script  would have the following lines:
 
-    PBS -N sampleJob
+    #PBS -N sampleJob
     cd  myFolder/
     source /opt/torch/bin/torch-activate
     th sample.lua
@@ -16,7 +16,7 @@ For running a sample file named 'sample.lua' located in the folder 'myFolder', t
 Note: sampleJob is the name assigned to the job.
 You may add more lines for monitoring the start and end of code execution.
 
-    PBS -N sampleJob
+    #PBS -N sampleJob
     cd  myFolder/
     source /opt/torch/bin/torch-activate
     echo Start
