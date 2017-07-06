@@ -33,6 +33,8 @@ This repository contains tutorials and resources for the Deep Learning for Visua
 
 Link to download data for tutorial 3 (tut03): https://tiny-imagenet.herokuapp.com/
 
+[Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download data for tut11
+
 Torch7 documentation: http://torch.ch/  <br />
 Link to download data for tutorial 4 (tut04): http://goo.gl/qjmMH2  <br />
 Reference for tutorial 4: https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb <br />
