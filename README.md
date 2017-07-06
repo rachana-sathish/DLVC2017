@@ -16,7 +16,7 @@ This repository contains tutorials and resources for the Deep Learning for Visua
      File1_v1: tut03-ImageNet Classification (Classical Approach).ipynb
      File1_v2: tut03.py
      
-   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
+   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset <br />
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
 
 ## Day 2
@@ -54,7 +54,7 @@ This repository contains tutorials and resources for the Deep Learning for Visua
      File1: trainAlexNet.lua
      File2: generate_filenames.cpp
      
-   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
+   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset <br />
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 ### Tutorial 12: Learning Rules and Batch Updates
@@ -68,19 +68,19 @@ This repository contains tutorials and resources for the Deep Learning for Visua
 ### Tutorial 13: ImageNet Classification (VGGNet)
      File: tut13_trainVgg.lua
      
-   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
+   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset <br />
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 ### Tutorial 14: ImageNet Classification (GoogLeNet)
      File: tut14_trainIncep.lua
      
-   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
+   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset <br />
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 ### Tutorial 15: ImageNet Classification (ResNet / DenseNet)
      File: tut15_trainResnet18.lua
      
-   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
+   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset <br />
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 
