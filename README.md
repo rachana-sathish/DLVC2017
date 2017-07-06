@@ -9,13 +9,25 @@ This repository contains tutorials and resources for the Deep Learning for Visua
      File: tut02-MNIST Digits Classification (Classical Approach).ipynb
 
 ### Tutorial 3: ImageNet Classification (Classical Approach)
-     File: tut03-ImageNet Classification (Classical Approach).ipynb
+     File1_v1: tut03-ImageNet Classification (Classical Approach).ipynb
+     File1_v2: tut03.py
 
 ### Tutorial 4: Torch for Deep Neural Networks
     File0: Instructions.md (instructions to run the code on the remote server)
-    
+    File1: 1_Tensors.lua 
+    File2: 2_NeuralNet.lua
+    File3: 3_NNtrain.lua
+    File4: myNet.lua (support code for 3_NNtrain.lua)
+        
 ### Tutorial 5: MNIST Digits Classification (Autoencoders)
-    
+    File1: AE_approach2.lua (Full training of autorncoder (AE))
+        
+### Tutorial 6: ImageNet-Tiny Classification (Autoencoders)
+
+### Tutorial 7: ImageNet-Tiny Classification (Autoencoders)
+     File1: SDSAE_approach1.lua (Layer-wise training of Stacked Denoising Sparse AE)
+
+
 
 [Link](http://yann.lecun.com/exdb/mnist/) to download data for tutorial 2 (tut02).
 
