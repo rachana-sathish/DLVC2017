@@ -9,13 +9,15 @@ This repository contains tutorials and resources for the Deep Learning for Visua
      
 ### Tutorial 2: MNIST Digits Classification (Classical Approach).
      File: tut02-MNIST Digits Classification (Classical Approach).ipynb
-     [Link](http://yann.lecun.com/exdb/mnist/) to download data. 
+     
+   [Link](http://yann.lecun.com/exdb/mnist/) to download data. 
 
 ### Tutorial 3: ImageNet Classification (Classical Approach)
      File1_v1: tut03-ImageNet Classification (Classical Approach).ipynb
      File1_v2: tut03.py
-     [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
-     [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
+     
+   [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
+   [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
 
 ## Day 2
 ### Tutorial 4: Torch for Deep Neural Networks    
@@ -51,11 +53,13 @@ This repository contains tutorials and resources for the Deep Learning for Visua
 ### Tutorial 11: ImageNet Classification (AlexNet)
      File1: trainAlexNet.lua
      File2: generate_filenames.cpp
+     
    [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 ### Tutorial 12: Learning Rules and Batch Updates
      File: tut12_LeNet_batchWise.lua
+     
    [Link](http://goo.gl/qjmMH2) to download data.
      
      
@@ -63,16 +67,19 @@ This repository contains tutorials and resources for the Deep Learning for Visua
      File: generate_filenames.cpp
 ### Tutorial 13: ImageNet Classification (VGGNet)
      File: tut13_trainVgg.lua
+     
    [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 ### Tutorial 14: ImageNet Classification (GoogLeNet)
      File: tut14_trainIncep.lua
+     
    [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 ### Tutorial 15: ImageNet Classification (ResNet / DenseNet)
      File: tut15_trainResnet18.lua
+     
    [Link](https://tiny-imagenet.herokuapp.com/) to download full dataset
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
