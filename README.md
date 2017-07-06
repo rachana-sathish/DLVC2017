@@ -2,6 +2,9 @@
 
 This repository contains tutorials and resources for the Deep Learning for Visual Computing summer school 2017.
 
+Torch7 documentation: http://torch.ch/  <br />
+More tutorials on torch: http://torch.ch/docs/tutorials.html
+
 
 ## Day 1
 ### Tutorial 1: Python for Visual Computing
@@ -25,6 +28,8 @@ This repository contains tutorials and resources for the Deep Learning for Visua
     File2: 2_NeuralNet.lua
     File3: 3_NNtrain.lua
     File4: myNet.lua (support code for 3_NNtrain.lua)
+    
+  Reference for tutorial 4: https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb <br />
         
 ### Tutorial 5: MNIST Digits Classification (Autoencoders)
     File1: AE_approach2.lua (Full training of autorncoder (AE))
@@ -84,8 +89,3 @@ This repository contains tutorials and resources for the Deep Learning for Visua
    [Link](https://drive.google.com/open?id=0B6jzhig-FqKfTG4zeWZBanlDMmc) to download truncated dataset (10 classes,train images only)
      
 
-
-Torch7 documentation: http://torch.ch/  <br />
- 
-Reference for tutorial 4: https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb <br />
-More tutorials on torch: http://torch.ch/docs/tutorials.html
